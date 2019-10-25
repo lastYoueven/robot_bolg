@@ -3,3 +3,5 @@ lxml==4.3.1
 mongoengine==0.16.3
 requests==2.21.0
 requests-html==0.10.0
+wxpy==0.3.9.8
+Appium-Python-Client==0.49
