@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66615244-73e6-4d54-9ce7-8f1e7d046171" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uilt_tool/common_tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_manger.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_manger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylint_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylint_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/weixin_manger.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/weixin_manger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel_script/base_rebot.py" beforeDir="false" afterPath="$PROJECT_DIR$/channel_script/base_rebot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../../venvs/common_venv/bin/python3.7" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../../gitlab_project/venvs/zy_channel_sync_spider/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -165,6 +163,9 @@
       <workItem from="1579424980035" duration="3765000" />
       <workItem from="1579503106019" duration="6506000" />
       <workItem from="1579964166724" duration="4000" />
+      <workItem from="1580118032016" duration="461000" />
+      <workItem from="1580118858724" duration="1000" />
+      <workItem from="1583245953897" duration="569000" />
     </task>
     <servers />
   </component>
@@ -184,6 +185,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583245984144">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583245984144" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

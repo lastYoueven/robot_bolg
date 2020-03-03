@@ -29,6 +29,27 @@ class BaseReboot:
                             'dumpio': True
                             })
 
+    def init_pyppeteer_driver(self):
+        """
+        初始化pyppeteer句柄
+        """
+        self.my_driver = await launch({
+            'headless': False,  # 关闭无头模式
+            'devtools': True,  # 打开 chromium 的 devtools
+            # 'executablePath': 'Chromium.app/Contents/MacOS/Chromiu',
+            'args': [
+                '--disable-extensions',
+                '--hide-scrollbars',
+                '--disable-bundled-ppapi-flash',
+                '--mute-audio',
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-gpu',
+            ],
+            'dumpio': True
+        })
+        return
+
     def login_with_cookie(self):
         """
         使用cookie进行登陆
@@ -42,7 +63,6 @@ class BaseReboot:
         :param url:
         :return:
         """
-
 
     def login_out(self):
         pass
