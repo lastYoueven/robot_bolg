@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66615244-73e6-4d54-9ce7-8f1e7d046171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uilt_tool/common_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/origin_data_tool/language_tool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/channel_script/base_rebot.py" beforeDir="false" afterPath="$PROJECT_DIR$/channel_script/base_rebot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,9 @@
     <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1WtLtwcYsOZ45kLov0wZgakl8LM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -165,7 +167,7 @@
       <workItem from="1579964166724" duration="4000" />
       <workItem from="1580118032016" duration="461000" />
       <workItem from="1580118858724" duration="1000" />
-      <workItem from="1583245953897" duration="569000" />
+      <workItem from="1583245953897" duration="1373000" />
     </task>
     <servers />
   </component>
