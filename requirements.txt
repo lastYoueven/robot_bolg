@@ -5,3 +5,7 @@ requests==2.21.0
 requests-html==0.10.0
 wxpy==0.3.9.8
 Appium-Python-Client==0.49
+six==1.14.0
+nltk==3.4.0.3
+jieba==0.42.1
+paddlepaddle-tiny==1.6.1
