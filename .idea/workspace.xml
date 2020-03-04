@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66615244-73e6-4d54-9ce7-8f1e7d046171" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/origin_data_tool/language_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data_tool/language_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/weixin_manger.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/weixin_manger.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +14,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/origin_data_tool/language_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1158">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="e#164#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/weixin_manger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -45,9 +76,11 @@
     <findStrings>
       <find>wangkunquan@xiaozhu.com</find>
       <find>wangtianxing</find>
+      <find>zy_channel</find>
     </findStrings>
     <replaceStrings>
       <replace>598020642@qq.com</replace>
+      <replace>comprehensive_db</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -61,6 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/origin_data_tool/language_tool.py" />
+        <option value="$PROJECT_DIR$/test/weixin_manger.py" />
+        <option value="$PROJECT_DIR$/data/models.py" />
       </list>
     </option>
   </component>
@@ -79,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,12 +124,43 @@
             <path>
               <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="celery_conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="channel_script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
               <item name="origin_data_tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot_bolg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_bolg" type="462c0819:PsiDirectoryNode" />
+              <item name="uilt_tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -133,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.robot_bolg">
+  <component name="RunManager" selected="Python.weixin_manger">
     <configuration name="robot_bolg" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="robot_bolg" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +206,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../../gitlab_project/venvs/zy_channel_sync_spider/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../../gitlab_project/venvs/zy_channel_sync_spider/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -178,13 +243,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="weixin_manger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="robot_bolg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/weixin_manger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in weixin_manger.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="robot_bolg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../../gitlab_project/venvs/zy_channel_sync_spider/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -197,10 +284,12 @@
     <list>
       <item itemvalue="Python.robot_bolg" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.weixin_manger" />
       <item itemvalue="Python tests.pytest in weixin_manger.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.weixin_manger" />
         <item itemvalue="Python tests.pytest in weixin_manger.py" />
         <item itemvalue="Python.run" />
       </list>
@@ -238,7 +327,8 @@
       <workItem from="1580118032016" duration="461000" />
       <workItem from="1580118858724" duration="1000" />
       <workItem from="1583245953897" duration="1373000" />
-      <workItem from="1583300962065" duration="1154000" />
+      <workItem from="1583300962065" duration="2937000" />
+      <workItem from="1583309246823" duration="1777000" />
     </task>
     <servers />
   </component>
@@ -255,23 +345,32 @@
     <history-entry file="pytest_in_weixin_manger_py - 2019.10.23 at 18h 03m 12s.xml">
       <configuration name="pytest in weixin_manger.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_weixin_manger_py - 2020.03.04 at 14h 27m 51s.xml">
+      <configuration name="pytest in weixin_manger.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_weixin_manger_py - 2020.03.04 at 14h 28m 13s.xml">
+      <configuration name="pytest in weixin_manger.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_weixin_manger_py - 2020.03.04 at 14h 28m 33s.xml">
+      <configuration name="pytest in weixin_manger.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_weixin_manger_py - 2020.03.04 at 14h 30m 23s.xml">
+      <configuration name="pytest in weixin_manger.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_weixin_manger_py - 2020.03.04 at 14h 30m 49s.xml">
+      <configuration name="pytest in weixin_manger.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154000" />
+    <option name="totallyTimeSpent" value="4714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-974" width="1080" height="1920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25433525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -279,11 +378,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,11 +407,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/weixin_manger.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///usr/local/lib/python3.7/site-packages/itchat/components/login.py</url>
           <line>65</line>
           <option name="timeStamp" value="2" />
@@ -315,10 +415,42 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/robot_bolg$weixin_manger.coverage" NAME="weixin_manger Coverage Results" MODIFIED="1583303486769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/robot_bolg$run.coverage" NAME="run Coverage Results" MODIFIED="1571320510311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/robot_bolg$pytest_in_weixin_manger_py.coverage" NAME="pytest in weixin_manger.py Coverage Results" MODIFIED="1571824853325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/robot_bolg$pytest_in_weixin_manger_py.coverage" NAME="pytest in weixin_manger.py Coverage Results" MODIFIED="1583303449861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pytest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/origin_data_tool/language_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/weixin_manger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -326,10 +458,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/origin_data_tool/language_tool.py">
+    <entry file="file://$PROJECT_DIR$/data/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="1158">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#164#179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

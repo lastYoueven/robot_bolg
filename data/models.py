@@ -6,6 +6,7 @@
 # @File    : models.py
 # @Software: PyCharm
 import datetime
+import uuid
 
 from flask_mongoengine import Document
 from mongoengine import (
@@ -44,7 +45,7 @@ class AccountCookies(Document):
 
     meta = {
         'strict': False,
-        'db_alias': 'zy_channel',
+        'db_alias': 'comprehensive_db',
         'indexes': [
             'username',
             'channel',
@@ -69,3 +70,74 @@ class AccountCookies(Document):
         # 修改cookie状态
         self.status = "invalid"
         self.save()
+
+
+class OriginData(Document):
+    """
+    原始数据
+    """
+    url = StringField(required=True, verbose_name='原始数据来源')
+    data_str = StringField(default='', verbose_name='数据来源内容')
+    data_uuid = StringField(required=True, verbose_name='数据来源id')
+    create_time = DateTimeField(default=datetime.datetime.now, verbose_name="创建时间")
+
+    meta = {
+        'strict': False,
+        'db_alias': 'comprehensive_db',
+        'indexes': [
+            'url',
+            'data_str',
+            'data_uuid',
+            '-create_time',
+        ],
+        'index_background': True,
+    }
+
+    def save(self, *args, **kwargs):
+        return super(OriginData, self).save(*args, **kwargs)
+
+    def to_dict(self):
+        return {
+            'url': self.url,
+            'data_str': self.data_str,
+            'data_uuid': self.data_uuid,
+            'create_time': self.create_time.strftime('%Y-%m-%d %H:%M:%S')
+        }
+
+
+class OriginKeyData(Document):
+    """
+    网络来源的原始数据
+    """
+
+    the_key = StringField(required=True, verbose_name='数据来源关键词')
+    data_uuid = StringField(default=uuid.uuid4(), verbose_name='数据来源关键词')
+    data_str = StringField(default=uuid.uuid4(), verbose_name='数据来源内容')
+    status = StringField(verbose_name="关键词状态", default='valid')
+    create_time = DateTimeField(required=True, verbose_name='数据创建时间')
+    update_time = DateTimeField(default=datetime.datetime.now, verbose_name="更新时间")
+
+    meta = {
+        'strict': False,
+        'db_alias': 'comprehensive_db',
+        'indexes': [
+            'the_key',
+            'data_uuid',
+            'status',
+            '-create_time',
+        ],
+        'index_background': True,
+    }
+
+    def to_dict(self):
+        return {
+            'the_key': self.the_key,
+            'data_uuid': self.data_uuid,
+            'data_str': self.data_str,
+            'status': self.status,
+            'update_time': self.update_time.strftime('%Y-%m-%d %H:%M:%S')
+        }
+
+    def save(self, *args, **kwargs):
+        self.update_time = datetime.datetime.now()
+        return super(OriginKeyData, self).save(*args, **kwargs)
