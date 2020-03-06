@@ -21,7 +21,8 @@ class WeiBoRobot(BaseReboot):
         # 搜索url
         self.search = 'https://s.weibo.com/weibo?'
 
-    def get_the_info(self):
+    def get_key_info(self):
         """
         获取关键词相关信息
         """
+        pass

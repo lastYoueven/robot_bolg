@@ -7,9 +7,12 @@
 # @Software: PyCharm
 
 import asyncio
+from random import random
 
 import requests
 from pyppeteer import launch
+
+from conf.setting import USER_AGENT
 
 
 class BaseReboot:
@@ -23,32 +26,51 @@ class BaseReboot:
         self.launch_driver = None
         self.robot_session = None
 
-    def init_pyppeteer_driver(self):
+    def get_pyppeteer_driver(self):
         """
         初始化pyppeteer句柄
         """
-        return await launch({
-            'headless': False,  # 关闭无头模式
-            'devtools': True,  # 打开 chromium 的 devtools
-            # 'executablePath': 'Chromium.app/Contents/MacOS/Chromiu',
-            'args': [
-                '--disable-extensions',
-                '--hide-scrollbars',
-                '--disable-bundled-ppapi-flash',
-                '--mute-audio',
-                '--no-sandbox',
-                '--disable-setuid-sandbox',
-                '--disable-gpu',
-            ],
-            'dumpio': True
-        })
+        pass
+        # TODO
+        # return await launch({
+        #     'headless': False,  # 关闭无头模式
+        #     'devtools': True,  # 打开 chromium 的 devtools
+        #     # 'executablePath': 'Chromium.app/Contents/MacOS/Chromiu',
+        #     'args': [
+        #         '--disable-extensions',
+        #         '--hide-scrollbars',
+        #         '--disable-bundled-ppapi-flash',
+        #         '--mute-audio',
+        #         '--no-sandbox',
+        #         '--disable-setuid-sandbox',
+        #         '--disable-gpu',
+        #     ],
+        #     'dumpio': True
+        # })
 
-    def init_request_session(self):
+    def get_proxies(self):
+        """
+        获取代理数据
+        :return:
+        """
+        # TODO
+        proxies = {}
+        return proxies
+
+    def get_request_session(self, config_data: dict = {}):
         """
         初始化pyppeteer句柄
         """
-        self.robot_session = requests.session()
-        return
+        robot_session = requests.session()
+        # 加载配置文件
+        login_type = config_data.get('login_type', False)  # False 无需登陆, True 登陆
+        proxies_type = config_data.get('proxies', True)
+        if proxies_type:
+            robot_session.proxies = self.get_proxies()
+
+        if login_type:
+            self.login_with_cookie()
+        return robot_session
 
     def login_with_cookie(self):
         """
@@ -67,4 +89,3 @@ class BaseReboot:
 
     def login_out(self):
         pass
-

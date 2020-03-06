@@ -30,7 +30,7 @@ CELERYBEAT_SCHEDULE = {
         'task': 'get_hot_top_news',
         'schedule': crontab(minute=0, hour=10),
     },
-    # 笔记发布每天一次（）
+    # 每日检查热点（）
     'note_auto_pub': {
         'task': 'note_auto_pub',
         'schedule': crontab(hour=2, minute=0),
