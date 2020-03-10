@@ -21,8 +21,17 @@ class WeiBoRobot(BaseReboot):
         # 搜索url
         self.search = 'https://s.weibo.com/weibo?'
 
+    def init_cookies(self):
+        """
+        获取必须cookies
+        """
+        # 请求加载对应的cookies
+        self.robot_session = self.get_request_session()
+
+
+
     def get_key_info(self):
         """
         获取关键词相关信息
         """
-        pass
+        self.init_cookies()

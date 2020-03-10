@@ -1,6 +1,7 @@
 *.pyc
 .idea
-.idea/*
+./.idea
+./.idea/*
 .DS_Store
 *.log
 test/*
