@@ -8,10 +8,10 @@
 from channel_script.base_rebot import BaseReboot
 
 
-class GongZongHong(BaseReboot):
-
+class GongZongHao(BaseReboot):
 
     def __init__(self):
         pass
 
-    def
+    def __repr__(self):
+        pass
