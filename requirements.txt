@@ -1,5 +1,5 @@
 flask==1.0.2
-lxml==4.3.1
+lxml==4.6.2
 mongoengine==0.16.3
 requests==2.21.0
 requests-html==0.10.0
